@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+
+
+body {
+    width: 100vw; /* Deixando a imagem no tamanho total da tela*/
+    height: 100%;
+    background-image: url('./img/estudos.jpeg');
+    background-size: cover;
+    
+}
+
+header {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top: 40px; /*Deixando um espaço acima do texto*/
+    font-size: 1.3em;
+    font-weight: bolder;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
+    margin-bottom: 40px;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    width: 700px;
+    padding-bottom: 40px;
+    padding-top: 5px;
+    margin: auto;
+    background-color: rgb(189, 187, 187);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+
+}
+
+#comentario {
+    height: 100px;
+    margin-bottom: 20px;
+    
+}
+
+#principal {
+    margin: 40px;
+
+}
+
+.canto {
+    border-radius: 5px;
+    height: 30px;
+    margin-top: 2px;
+    margin-bottom: 25px;
+    width: 593px;
+}
+
+.recomendacao {
+    margin-top: 10px;
+}
+
+.tamanhobaixo {
+    margin-bottom: 25px;
+}
+
+#botao {
+    height: 30px;
+    width: 93px;
+}
+
+#eletro {
+    font-weight: 200px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#final {
+    color: white;
+    text-decoration: none;
+}

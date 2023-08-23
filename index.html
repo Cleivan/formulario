@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="shortcut icon" href="icone.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Formulário de Pesquisa</h1>
+        <p>Obrigado por responder esse formulário.</p>
+    
+    </header>
+    <div id="container"></div>
+    <main>
+        <article id="principal">
+            <h1 class="recomendacao">Nome</h1>
+            <input type="text" class="canto" name="Nome" size="80" placeholder="Escreva seu nome" required>
+            <h1>Email</h1>
+            <input type="text" class="canto" name="Email" size="80" placeholder="Escreva seu Email">
+            <h1>Idade</h1>
+            <input type="number" class="canto" name="Idade" size="80" placeholder="Digite sua idade">
+
+            <h1>Qual opção melhor descreve sua função atual?</h1>
+            <select name="funcao" id="funcao" class="canto">
+                <option value="selecione">Selecione</option>
+                <option value="estudante">Estudante</option>
+                <option value="desempregado">Empregado</option>
+                <option value="estudante">Desempregado</option>
+                <option value="aposentado">Aposentado</option>
+                <option value="prefere nao falar">Prefere não falar</option>
+                <option value="outro">Outro</option>
+            </select>
+            
+            <h1 >Você recomendaria esse formulário para outra pessoa?</h1>
+            <input class="recomendacao" type="radio" name="recomendacao" checked>
+            <label>Sim</label> <br> 
+            <input type="radio" name="recomendacao">
+            <label>Não</label> <br>
+            <input class="tamanhobaixo" type="radio" name="recomendacao">
+            <label>Talvez</label>
+
+            <h1 >Quantas pessoas moram com você?</h1>
+            <select name="quantidade" id="quantidade" class="canto" >
+                <option value="Selecione">Selecione</option>
+                <option value="Apenas eu">Apenas eu</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4 ou mais">4 ou mais</option>
+            </select>
+
+            <h1>Quais eletrodomésticos você possui na sua casa?</h1>
+            <input class="recomendacao"type="checkbox" name="eletro">
+            <label >Televisão</label> <br>
+            <input type="checkbox">
+            <label>Geladeira</label> <br>
+            <input type="checkbox">
+            <label>Computador</label> <br>
+            <input type="checkbox">
+            <label>Tablet</label> <br>
+            <input type="checkbox"> 
+            <label> Maquina de Lavar</label> <br>
+            <input type="checkbox"> 
+            <label> Microondas</label> <br>
+            <input type="checkbox"> 
+            <label> Forno</label> <br>
+            <input type="checkbox"> 
+            <label> Secador de cabelo</label> <br>
+            <input class="tamanhobaixo"  type="checkbox"> 
+            <label> Video Game</label>
+
+            <h1>Algum comentário ou sugestão?</h1>
+            <textarea id="comentario" name="comentario" rows="4" cols="80" placeholder="Escreva seu comentário aqui.">
+            </textarea>
+        
+            <button id="botao" type="submit">Enviar</button>
+            
+        </article>
+    </main>
+
+    <footer>
+        <p>Site criado por <a id="final" href="https://www.linkedin.com/in/cleivan-j%C3%BAnior/" target="_blank" >Cleivan Júnior</a></p>
+    </footer>
+</body>
+</html>
